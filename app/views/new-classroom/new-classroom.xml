@@ -1,5 +1,7 @@
 <Page loaded="pageLoaded">
   <StackLayout>
-    <Label text="NEW CLASSROOM"/>
+    <TextField hint="ชื่อผู้สอน" text="{{ teacher }}"/>
+    <TextField hint="ชื่อห้อง" text="{{ classroom }}"/>
+    <Button text="สร้างห้อง" tap="createNewRoom"/>
   </StackLayout>
 </Page>
