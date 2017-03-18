@@ -1,4 +1,11 @@
 <Page loaded="pageLoaded">
-  <StackLayout>
+  <Page.actionBar>
+    <ActionBar title="ห้องเรียนอัจริยะ"/>
+  </Page.actionBar>
+  <StackLayout class="p-20">
+    <Image src="~/images/logo.jpg"/>
+    <Button text="เข้าห้องเรียน" class="text-primary bg-danger" tap="goJoinClassroom"/>
+    <Button text="สร้างห้องเรียน" tap="goNewClassroom"/>
+    <Label text="NativeScript Training" class="text-center"/>
   </StackLayout>
 </Page>
